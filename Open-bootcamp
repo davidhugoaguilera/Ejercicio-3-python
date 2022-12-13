@@ -1,0 +1,7 @@
+Python 3.10.1 (tags/v3.10.1:2cd268a, Dec 10 2022, 19:00:51) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+
+peso = input("¿Cuál es tu peso en kg? ")
+estatura = input("¿Cuál es tu estatura en metros?")
+imc = round(float(peso)/float(estatura)**2,2)
+print("Tu índice de masa corporal es " + str(imc))
